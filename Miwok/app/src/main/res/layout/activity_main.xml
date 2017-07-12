@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.niaj_7991tnahira.miwok.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="normal|bold"
+        android:text="@string/category_numbers"
+        android:textColor="@android:color/background_light"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_colors"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="normal|bold"
+        android:text="@string/category_colors"
+        android:textColor="@color/primary_color"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="normal|bold"
+        android:text="@string/category_family"
+        android:textColor="@android:color/holo_red_dark"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_phrases"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="normal|bold"
+        android:text="@string/category_phrases"
+        android:padding="20dp"
+        android:textColor="@color/primary_dark_color"/>
+
+
+</LinearLayout>
